@@ -74,6 +74,7 @@ function reset() {
 		if (colors[x]) {
 			squares[x].style.backgroundColor = colors[x];
 			container.style["padding-top"] = "0px";
+			squares[x].style.display = "inline-box";
 		} else {
 			squares[x].style.display = "none";
 			container.style["padding-top"] = "100px";
